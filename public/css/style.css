@@ -1,4 +1,20 @@
 body{
       background-color: grey;
 }
+.aside-derecho{
+      border: 2px solid #000;
+}
+
+.carta{
+      /*margin: 10px;  el primero es el margen vertical y el segundo el horizontal*/
+      border: 2px solid #000;
+}
+
+.aside-aqua{
+      background-color: aqua;
+}
+
+.aside-negro{
+      background-color: #000;
+}
 
