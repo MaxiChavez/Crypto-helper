@@ -1,74 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    
+
     <!--Bootstrap 4-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap" rel="stylesheet" />
 </head>
+
 <body>
     <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Moneda.
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Moneda.
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
         </div>
-      </div>
-2
-
-
+    </div>
     <div class="container-fluid mt-3">
         <div class="row">
-            <div id="aside-izquierdo" class="col-md-1 aside-aqua" onclick="myFunction()"> <!-- aside izquierdo -->
-               
+            <div id="aside-izquierdo" class="col-md-1 aside-aqua" onclick="myFunction()">
+                <!-- aside izquierdo -->
             </div>
-            <div class="col-md-10"> <!-- Contenido central -->
+            <div class="col-md-10">
+                <!-- Contenido central -->
                 <div class="row">
-                    <div class="col-md-3"> <!--Columna de cartas 1-->
-                        <div class="row carta mx-2"> <!--mx = margin:auto;-->
-                            <div class="col-md-2"> <!--Foto-->
-                                <img src ="../img/frenteblanco.png" class="img-fluid" alt="fotocripto" >
+                    <div class="col-md-3">
+                        <!--Columna de cartas 1-->
+                        <div class="row carta mx-2">
+                            <!--mx = margin:auto;-->
+                            <div class="col-md-4 min-vh-150">
+                                <!--Foto-->
+                                <img src="../img/frenteblanco.png" class="img-fluid" alt="fotocripto" />
                             </div>
-                            <div class="col-md-10"> <!--Contenido-->
+                            <div class="col-md-8">
+                                <!--Contenido-->
                                 <div class="row">
-                                    <div class="col-md-12 text-center"> <!--Nombre-->
+                                    <div class="col-md-12 text-center">
+                                        <!--Nombre-->
                                         Bitcoin
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-6"> <!--Moneda-->
+                                    <div class="col-md-6">
+                                        <!--Moneda-->
                                         ARS
                                     </div>
-                                    <div class="col-md-6"> <!--Valor-->
+                                    <div class="col-md-6">
+                                        <!--Valor-->
                                         34234234
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3"> <!--Columna de cartas 2-->
+                    <div class="col-md-3">
+                        <!--Columna de cartas 2-->
                     </div>
-                    <div class="col-md-3"> <!--Columna de cartas 3-->
+                    <div class="col-md-3">
+                        <!--Columna de cartas 3-->
                     </div>
-                    <div class="col-md-3"> <!--Columna de cartas 4-->
+                    <div class="col-md-3">
+                        <!--Columna de cartas 4-->
                     </div>
                 </div>
             </div>
-            <div class="col-md-1 aside-derecho"> <!-- aside derecho -->
-                
+            <div class="col-md-1 aside-derecho">
+                <!-- aside derecho -->
             </div>
         </div>
     </div>
     <script src="../js/eventos/primerJavascript.js"></script>
 </body>
+
 </html>
