@@ -31,12 +31,18 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 }
 
-.dropdown {
-      position: relative;
-      margin-left: 85%;
-      padding-top: 20px;
 
 }
+.dropdown {
+     
+      margin-right: 100%;
+      padding-top: 20px;
+      align-items: flex-end;
+
+}
+
+
+
 /*
 .aside-aqua{
       background-color: aqua;
