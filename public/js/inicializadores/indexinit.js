@@ -1,5 +1,5 @@
-import {IndexRender} from '../containers/index.js'
+import {IndexRenderizador} from '../containers/indexcontainer.js'
 
-window.onload = () =>{
-      IndexRender();
+window.onload = () =>{ /*Arrow Function*/
+      IndexRenderizador();
 }
